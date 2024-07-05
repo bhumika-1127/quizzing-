@@ -1,0 +1,14 @@
+body {
+  background-image: url('./assets/5574325.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+  min-height: 100vh; /* Ensures the body covers at least the full viewport height */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  overflow: auto; /* Allows scrolling if content overflows */
+  margin: 0; /* Removes default margin to avoid unintended overflow */
+  padding: 0; /* Removes default padding */
+}
